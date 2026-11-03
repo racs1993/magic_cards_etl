@@ -46,3 +46,9 @@ orchestrated with Apache Airflow and organized as a medallion architecture.
 - No hardcoded secrets or default passwords in `docker-compose.yml`.
 - Publish ports on 127.0.0.1 only.
 - Ask before adding dependencies, installing system packages, or deleting files.
+
+## Definition of done (per phase)
+- Update the README status line and the roadmap table.
+- Update the architecture diagram in the README if the data flow changed.
+- From Phase 2 on: add a screenshot of the Airflow UI showing a successful run to
+  `docs/` and reference it in the README.
